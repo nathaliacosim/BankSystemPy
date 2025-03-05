@@ -24,7 +24,7 @@ while True:
             extrato += f"Depósito: R$ {valor:.2f}\n"
 
         else:
-            print("O valor informado é inválido.")
+            print("O valor informado é inválido!")
 
     elif opcao == "s":
         valor = float(input("Informe o valor do saque: "))
